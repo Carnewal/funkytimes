@@ -1,0 +1,32 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.app-header {
+  background: #322e2c;
+  padding: 1em;
+  text-align: center;
+}
+.app-header h1 {
+  color: #fff;
+}
+
+.app-header h2 {
+  color: #fff;
+}
+
+.color-orange {
+  color: #f4861f;
+}
+
+.steps-container {
+  padding: 2em 3em;
+}
