@@ -151,8 +151,8 @@ function App() {
           }>
           {Object.keys(projectData).length
             ? Object.entries(projectData).map(([k, v]) => (
-                <Option value={k.toString()}>{v.name}</Option>
-              ))
+              <Option value={k.toString()}>{v.name}</Option>
+            ))
             : null}
         </Select>
       ),
@@ -226,7 +226,7 @@ function App() {
               renderItem={(item, i) => (
                 <List.Item
                   actions={[<Button onClick={removeEntry(i)}>remove</Button>]}>
-                  <div>{item.date.format('DD/MM/YYYY')}</div>
+                  <div>{item.date.format('dddd')} {item.date.format('DD/MM/YYYY')}</div>
                 </List.Item>
               )}
             />
